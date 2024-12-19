@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkspiritual_epistemics=self.webpackChunkspiritual_epistemics||[]).push([[903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/YOUR_REPOSITORY_NAME/blog","blogTitle":"Blog","authorsListPath":"/YOUR_REPOSITORY_NAME/blog/authors"}')}}]);
