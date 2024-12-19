@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkspiritual_epistemics=self.webpackChunkspiritual_epistemics||[]).push([[903],{1912:i=>{i.exports=JSON.parse('{"blogBasePath":"/spiritual-rationality/blog","blogTitle":"Blog","authorsListPath":"/spiritual-rationality/blog/authors"}')}}]);
