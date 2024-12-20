@@ -19,7 +19,7 @@ sidebar_position: 2
 ### a note on words
 
 some of what I'll discuss here is fraught unfortunately because of the [pomp] that the word 'rationality' carries. I'll say some then regarding what words are, or mean, or whatever.
-- the short thing to say here is that words are just that, and within a given context we can understand  words to mean what they are defined to mean. 
+- the short thing to say here is that words are just that, and within a given context we can understand  words to mean what they are defined to mean.
 - obviously, of course, there is connotation, and a lot of abuse can be done by motte and bailey. nonethless, for the context of this website, when I refer to rationality (unless I mean the subculture or whatever) I mean it mostly in this narrow sense
   - (of course I get sloppy)
 - some complexity here re like, wait, how can you be said to own this word rationality
@@ -27,7 +27,8 @@ some of what I'll discuss here is fraught unfortunately because of the [pomp] th
     - an angle on this is to say, this is a useful concept, and at minimum you can take this as "a useful concept, agnostic of the name"
     - we can hold these concepts relatively lightly and notice what distinctions are made in their light etc.
       - maybe some nice image here of like, either a lense or a viewpoint. probably this is obnoxious and I'll leave it be.
-  
+
+- [ ]  I also want to say something here about straw vulcans
 
 ## epistemic rationality
 
@@ -37,7 +38,7 @@ some of what I'll discuss here is fraught unfortunately because of the [pomp] th
     - the point here is being predictive; being descriptive exhaustive is also adequate
   - something something "reality" -- [ probably link to my post here ]
   - this involves some *prescriptive* notions wrt how you go about updating, at least for some sense of prescriptive
-  - what does it mean to even arrive at correct answers? 
+  - what does it mean to even arrive at correct answers?
     - this is going to be challenging to some people for a number of reasons
       - [ probably this is like "blah blah this is a diversion but it's worth going into"]
       - "true" or "correct" is often used abusively to browbeat ppl, or to wield power
@@ -47,7 +48,7 @@ some of what I'll discuss here is fraught unfortunately because of the [pomp] th
         - and so then we understand epistemic rationality to mean, just, "how well does this track the curves of the domain, and how well (read: successfully, accurately, at a high success rate) do we predict what we actually observe
           - there's a loop here wrt perception, which we'll get to when we talk about spirituality, but nonetheless
           - indeed there are other theories of knowledge and other distinctions that can be made, in any case I want to make reference carefully to epistemic rationality, and when I say that this is what I mean
-        
+
 ## instrumental rationality
 - there exist tradeoffs, there exist choices, there exists strategy: "instrumental rationality"
   - there's a big can of weeds here wrt game theory, optimization, etc; in this respect I'm also kind of shallowly read

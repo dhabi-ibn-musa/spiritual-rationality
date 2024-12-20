@@ -7,8 +7,8 @@ sidebar_position: 1.5
 - [ ] why metaphysics?
 		- [ ] everyone is concerned with metaphysics
 - [ ] against naive rationalist metaphysics
-- [ ] maybe: "spiritual rationality" > epistemic rationality + instrumental rationality
-	- [ ] maybe just rename the sequence actually
+- [x] maybe: "spiritual rationality" > epistemic rationality + instrumental rationality
+	- [x] maybe just rename the sequence actually
 - [ ] ontological mistakes wrt phenomenology
 	- [ ] re like, mistaking or equivocating between physical correlates and qualia
 	- [ ] often also assuming the hard problem of consciousness to be solved etc
@@ -22,8 +22,8 @@ sidebar_position: 1.5
 	- [ ] something something, ppl can't distinguish what kinds of knowledge they're working with, make inferences inappropriately, and then reify those etc
 	- [ ] https://substack.com/@charlieawbery/p-148053464
 		- 2024-09-01 the short verison of this recording is like, at least in vajrayana, gurus often require submission, which isn't even necessarily required for transmission
-- [ ] sketch of a typology of correctness
-	- [ ] More like "a sketch of some types of correctness" rather than typology
+- [x] sketch of a typology of correctness
+	- [x] More like "a sketch of some types of correctness" rather than typology
 - [ ] "wrong practice" (this sort of comes after typology of correctness)
 - [ ] everyone is concerned with transformative practice
 	- [ ] what is practice for?
