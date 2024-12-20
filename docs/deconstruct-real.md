@@ -1,12 +1,12 @@
 ---
-title: Attempting To Deconstruct "real"
+title: Attempting to deconstruct "real"
 ---
 
 *This page is taken verbatim from a [blog post](https://www.lesswrong.com/posts/erMexbvmFGqGp5nyS/attempting-to-deconstruct-real) I wrote a couple years ago, but it's germane to the content of this book, and is worth including by itself*
 
 ***
 
-I see some current contentions which have a relatively invisible crux with respect to the concept of _real._ I'm increasingly doubtful that the concept means very much. I think ‘real’ or ‘reality’ is probably a mostly needless [reification](https://www.lesswrong.com/posts/nryLTAFDdYiHARaqZ/reification) over several different and not fully compatible distinctions. Note this is largely a cold take in a good part of my circles, but it’s not yet common knowledge, and so seems worth laying out explicitly.
+I see some current contentions which have a relatively invisible crux with respect to the concept of _real._ I'm increasingly doubtful that the concept means very much. I think ‘real’ or ‘reality’ is probably a mostly needless [reification](./reification) over several different and not fully compatible distinctions. Note this is largely a cold take in a good part of my circles, but it’s not yet common knowledge, and so seems worth laying out explicitly.
 
 It doesn’t seem like a primate nervous system comes out of the box with a notion of “reality”. Experiences are meaningful with respect to our values, capacities, and channels for meaning, regardless of their _truth values_ or the _accuracy of our world-models_.
 
