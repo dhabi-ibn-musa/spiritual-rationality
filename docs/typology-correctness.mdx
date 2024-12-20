@@ -21,6 +21,449 @@ import { TechnicalTabs, technical, vernacular, TabItem } from '@site/src/compone
   - this is more relevant to the reification posts but yeah
 
 ***
+2024-12-19 from voice notes
+0:00: Yeah, OK, so, so this part of the thing I'm least clear on,, I'm gonna like try to sketch it out, we'll see what happens.
+ 0:06: .
+ 0:09: Great.
+ 0:09: OK, so,, you know, we were, OK, fine.
+ 0:13: So like, basically, like there are different notions of like correctness or truth or something, rightness, goodness,, that we might want to use in different contexts, and I see people making what are pretty straightforward really type errors.
+ 0:24: OK, well, what's a type error?
+ 0:26: , basically like for the uninitiated, what I mean by type there is literally just like,, sort of like.
+ 0:34: .
+ 0:39: Well, maybe I don't want to introduce really deeply what a type error is, but like a brief explanation here would just be to say,, like, OK,, you know,, you're sort of like saying something about a certain kind of you're saying you're like, you're like using language about one type of object, one kind of object that like simply can't be used or doesn't apply to such an object.
+ 1:06: So an example here would be, so like trivial examples are like.
+ 1:11: Yeah, this is what's good here one, really stark ones that are just like semantically quite obvious would be, for example,,, This Yeah, I was gonna say this table is louder than that one, but that doesn't really work.
+ 1:44: Yeah, maybe 11 here would be this image is louder than that one.
+ 1:49: Now, sometimes we use the word I actually personally use the word loud sometimes to mean something like semantic meaning some something like sematically intense,, like sensationally intense, which is perfectly fine, and it's fine.
+ 2:02: ,, impressionistically to like use language in a way that it's like not quite so like technically narrow here, but there, there's some like really like tight distinctions that we can make where you're just saying like, you're just sort of like saying a thing that like doesn't mean what you're sort of like trying to use it, use it to mean.
+ 2:22: like it's fine to say, oh indeed, you know, Another, another case of loud actually is sometimes the word loud is used like loud is a is a black dialect word to refer to very pungent weed, right?
+ 2:37: And it's like, oh, that's great.
+ 2:38: I, I actually really like this expression, right?
+ 2:40: .
+ 2:40: , and it's familiar to, I, I think I, I, I, I'm, I'm, I'm fond of the use of the word loud to mean,, you know, sensor really loud,.
+ 2:51: Right, it's very clear what that means.
+ 2:52: It's not the same thing as intense, but like loud.
+ 2:55: It's loud, right?
+ 2:56: OK, that's great.
+ 2:57: Nothing wrong with that, really lovely.
+ 2:59: The point here is not, 01 shouldn't use language impressionistically, it's just to say, OK, there are certain kinds of things where you're going to make mistakes, etc.
+ 3:09: etc.
+ 3:10: Now, I don't expect people you're like you're gonna make mistakes if you,, you know, don't distinguish types carefully.
+
+0:00: , I'm trying to think of examples where you get a type error that like is really sort of pernicious in this way.
+ 0:08: I think this is like maybe an important part of like motivating this distinction to people who are like not familiar with such a, such a notion,.
+ 0:16: Let's think about it for a minute.
+ 0:25: Hm.
+ 0:27: Yeah, I'm still, I'm still thinking about it.
+ 0:30: Right, so we're looking for a case where You have a type error and on the basis of that you actually could sort of perniciously.
+ 0:44: I'm going to ask Claude.
+
+0:00: And so Claude had one suggestion which I don't like that much, which was like, oh, Americans have on average 2.3 children, is no longer the case.
+ 0:07: ,, and then like something about like conflating mean mean with motor or median, but I think it's like less.
+ 0:17: Intuitive and it's like actually, it's not, it's a type error in a different part of the the sort of semantic network and so it's like less less motivating.
+
+one thing from o1:
+>Here’s a simple illustration of how “mixing up types” can seriously trip us up:
+>
+>Imagine you see a rainbow in the sky. Phenomenally—that is, in terms of your immediate experience—it’s definitely “there.” You can point at it. You see those colors as something hanging in the air. However, if you jump into “physical” or “ontological” language and decide that, because you see a rainbow, a solid, tangible object must exist at the end of it, you’d be making a type error. You’d be confusing an experienced phenomenon (the rainbow’s appearance) with an actual physical object you could walk up to and, say, whack with a stick.
+>
+>In other words, “a rainbow,” as seen by your eyes and mind, belongs to one category (it’s phenomenally real—you really do see it). But if you chase after it as if it were a single, precisely located physical thing in the sky, you’ll never catch it, because in terms of meteorological optics, it’s not an object but rather light rays and water droplets arranged in just the right way.
+>
+>Why this is pernicious: At first glance, it’s easy to treat a rainbow as “real” in a straightforward, physical sense. That mistake (confusing phenomenal reality with physical reality) can lead to all sorts of wrong conclusions—like hoping there’s a literal pot of gold sitting right where the rainbow “touches” the ground. This is exactly what a “type error” does in a conceptual sense: it takes two different kinds of “realness” (or two fundamentally different categories) and slaps them together as though they were the same thing.
+>
+>• Phenomenally real: “I see something colorful in the sky.”
+>
+>• Physically/ontologically real: “A discrete object exists at coordinates (x, y, z).”
+>
+>Treating these as interchangeable leads to confusion. This same muddle happens in other contexts too—for instance, when people blur “phenomenally real,” “ontologically real,” “physically real,” and “pragmatically useful.” They’re each different “types” of reality; mixing them up often spawns major conceptual errors.
+
+
+
+- [ ] I want to talk about jazz, "no such thing as a wrong note", taste etc
+- [ ] there was this marvelous quote, I think this was a tweet, of some greek philosopher who was like "they think they can just make music that feels good, but they don't understand that what they've done is mathematically wrong"
+
+0:00: OK, so the best one that I could get talking to 01 was like something, something, you know, phenomenally real,, being the same as,, you know, physically real or something like this,, and like, I think, I think this is sort of like I don't wanna like mix the juices of wanting to talk about things being physically real, but like, OK, fine, this is at least one that we want to be able to distinguish where it's like and it's like pretty evident that people like sometimes like actually don't distinguish this there's like all kinds of problems that you can get in,, you know, the example that 01 gave is like, you know, whatever like.
+ 0:40: , I see it in front of me versus like.
+ 0:44: ,, I sort of like model it as indeed existing.
+ 0:53: In some like, you know, persistent like extra like it persistent sense outside of my own experience and so on.
+ 1:00: OK, so like that's a fine distinction that's gonna be intuitive to people and then yeah, right.
+ 1:04: So the point here is like, we care about types, we need to distinguish types.
+ 1:09: ,, maybe the word type is gonna get in trouble here, but it's not just like, OK, well, there's one concept and there's another concept that what I'm gonna start gonna actually build up to is to say, actually, you simply cannot.
+ 1:20: , say such a thing because that's something that only applies.
+ 1:28: that's something that applies to a different sort of thing altogether and like it just like isn't it isn't true in this way,.
+ 1:39: It isn't real in this way, etc.
+ 1:42: .
+ 1:42: , Yeah.
+
+0:00: Maybe maybe the point there is to say that that's less of an illustration about like types, type errors in general, but it's it's to say, here's a specific instance.
+ 0:08: This is one that people make mistakes about and that you can get confused about in different ways and that actually meditation stuff, like people, like meditation, whatever causes people to make mistakes in various directions,, in, you know, in this space,.
+ 0:21: , that like people in sort of like in the vernacular,, also make mistakes about this in this domain, and it's intuitive to people it's just like, OK, yes, these are obviously different.
+ 0:33: They're also obviously real.
+ 0:36: boundaries are not totally clear,, you know, is that the same red or something?
+ 0:42: .
+ 0:42: ,.
+ 0:42: ,, You know, etc.
+ 0:53: OK.
+
+0:00: Great, yeah, OK, so the, the first example here is gonna be like,, one second.
+ 0:13: Yeah,, OK, so the first example is like, OK, mathematically true,, and like.
+ 0:19: Hm, I think, I think mostly I can leave that be maybe for like a non-technical person, I would want to elaborate the point where we can just be like, yes,, you know, mathematically true, blah blah blah, like.
+ 0:32: , I don't know what's an example here.
+ 0:40: It's just like 1 + 1 equals 2, but it's like, oh, Pythagorean theorem or something.
+ 0:45: , it's just sort of like always true in all cases under the assumptions that we're working with.
+ 0:51: , Right, like, like, just like this sort of like disastrously inescapable.
+ 0:58: I don't know, but that that language came to me.
+ 1:00: OK, so mathematically true, that's fine.
+
+0:00: , I feel a little like I want to make a sly remark like it's like, oh, like unless you're sort of like pure agnostic or something, then indeed, you know, you're gonna be like a phenomenally real it's not the same as physically real or something.
+
+0:01: OK, great.
+ 0:01: So,, I'm not sure what we want next, right?
+ 0:05: So what do I want to build up to?
+ 0:06: I'm going to be like, part of the thing is I think the actual whole model I don't have quite sort of satisfactorily yet.
+ 0:14: So things that I want are sort of like, Empirically correct or something sort of like fact.
+ 0:21: I want, I want some some I want some notion it's gonna be something like factually true.
+ 0:26: This is something that this is a notion that we use, even if like a sort of really clear reduction of it is gonna be hard.
+ 0:32: I want something like, you know,, models with like extreme probability distributions over their, their veracity,.
+ 0:43: I want like Yeah,, I want.
+ 0:48: , I want like, probably separately like high confidence predictions over like uncertain events, uncertain future events, which is like sort of different, but like whatever.
+ 1:07: But like somewhere here we have like some cluster of things that end up being something like empirically true and like then there's a nice property that that we have here where like there's some kind of sense of of like they're like a it's like a specific claim about.
+ 1:21: , like a relationship of, you know, things in the world.
+ 1:29: What that means, not gonna get like overly philosophical here, but it's like, yeah, there's like some things in the world and they have like certain kinds of relationships.
+ 1:36: They have like certain kinds of arrangements,, etc.
+ 1:39: etc.
+ 1:39: and that could be like highly abstract, right?
+ 1:41: So it can be like like quite compound and in some sense it relies on like, like it must take as object both some kind of like ontological notion,.
+ 1:53: Like there is an ontic and there also is like, you know, some, some, some like mathematical things that there mathematical even just in a shallow sense in the sense of like, like we can work with some like simple mathematical systems and we can be like, OK, like there's 123, I can count to 3, even like in a kind of naive way, and then also, yes, there's 123 chairs, there's 3 chairs.
+ 2:17: There there's a, you know, 300 million, 350 million people in the states or something.
+ 2:22: It's not, it's not some like grand mathematical theorem, but it's like with respect to like some sort of like very simple mathematical relationships we have, you know, we are in math we often we're talking about space and number and you know, types and like sets and these sorts of things.
+ 2:42: Very shallowly, right, but like nonetheless,, and so and like empirical relationships in the empirical claims, empirical realities,, have like something to do with some kind of like compound relationship of.
+ 2:59: You know, of like ontological.
+ 3:03: Sort of usually something like physical, not always necessarily strictly physical, gets more nuance, whatever.
+ 3:10: , maybe we could restrict it to like, OK, well there's some sort of like more flatly physical, and then there's more, and then there's like less physical, but nonetheless, there's like, you know, physical ish or physical phenomena in some relationship to some kind of like simple sort of like mathematical construction as in we just like have some abstraction in which they've been placed.
+ 3:34: There's like this person, they're like individual people with unique identities that are persistent over time or, you know.
+ 3:42: There's like individual items that we can count or whatever, whatever it is.
+
+0:00: And right, OK, so that's,, you know, that's our sort of like epistemic rationality.
+ 0:05: And like, and like actually what's sort of nice here is that we have before we have rationality, we just have logic, right?
+ 0:11: So we can sort of like trace, we're gonna be like tracing some little little tree here.
+ 0:16: OK, so we have like, OK, well we have before rationality, there's just logic.
+ 0:22: There's just sort of PR abstraction.
+ 0:25: There's the play of abstraction.
+ 0:27: That's our sort of mathematical truth.
+ 0:29: Then we have, OK, then we have this like empirical truth at literally we wanted the epistemic rationality, fine.
+ 0:35: OK, then we're going to want instrumental rationality.
+ 0:39: So, so again, we're gonna like want a bunch of different concepts here,, and these are yet more compound, right?
+ 0:47: So they say.
+ 0:48: They, they, they have to take a new type.
+ 0:51: We're in the first in the first place we had types that we had constructed.
+ 0:55: Well, this, this gets into some kind of wacky things.
+ 0:59: Types of sort of constructed almost de novo, right?
+ 1:02: So we literally just have like, well, there's some like, you know, symbolic systems with like, some axioms and we can make in differences on the base on that basis or something.
+ 1:10: , and then we're like, OK, OK, OK, we're gonna, we're gonna suppose an ontic, and then we can like, you know, use like models,, that we got from, from the first level for from the zero level, and we're gonna construct relationships.
+ 1:25: OK, so now the, the, the second, well, I'll say 1st, 1st is logic, second is empirical.
+ 1:35: Third is, you know, pragmatic,, whatever.
+ 1:40: If you say,, you know, this is a good strategy or this is effective or something like this.
+ 1:47: Now,, in some sense, this can be qualified, it was to be constructed in a qualified way in such a way as to as to sort of like not have to make reference to.
+ 1:58: , oh yeah, I, I thought about like aesthetics.
+ 2:04: I don't know where aesthetics fits in here.
+ 2:06: , I might have lost my train of thought, shit,.
+ 2:12: Yeah, yeah, yeah, so like, like, like, like claims about things being good strategies, for example, can be constructed in such a way as to like,,, Like, be so perfectly qualified that indeed they sort of don't need to make reference to that that like besides exactly what has been qualified, they don't need to make reference to outside, you know, values or something.
+ 2:37: So for example, you can say, for example, if we assume.
+ 2:42: A utility function with, you know, this specific utility function or utility some something in this family that has properties like this one, then indeed with respect to that utility function, but there's no right, so I mean like both like the input and one of the inputs is a utility function to this we have like a function that takes as input, you know, some facts about the world and the utility function and like mathematical relationships and so on.
+ 3:10: Like some model, some sort of like bearer facts and also some like higher level models, and then,, sorry.
+ 3:17: , Outputs a type, which is, which is narrowly with respect to that utility function, right?
+ 3:32: Or at least the the type is with respect to a utility function, right?
+ 3:37: Now other things can have like different property, but the output is specifically with respect to the original input utility function and the type is of with respect to the utility function that we were given with respect to a utility function in principle, sorry.
+ 3:49: So for example, if I don't know what's, what's it, what's a sort of trivial example.
+ 3:56: , I'm actually struggling to come up with a nice example.
+
+0:00: Yeah, one thing I'm thinking of here is the conversation I had with John about like.
+ 0:04: , You know, like, 00, this is about real and it was not like competitions and oh yeah, there's atoms in there somewhere, but like it's kind of a separate issue.
+
+0:00: ,, OK, so, you know, if.
+ 0:13: , what do I wanna say.
+ 0:24: Yeah, yeah, yeah, I mean, I, I can just let it run.
+ 0:50: I'm, I'm, I'm getting up with sort of like facile examples where it's literally just like, well, if you want your computer to run better need more memory or something where you have like really simple relationships between two scalars, but like that's not really helpful here and those feel like too facile to be illustrative or motivating.
+ 1:07: , I'm trying to think of of more like better examples.
+ 1:10: , What is a good example here?
+ 1:44: You know, if you want to maximize conversion rates, then, you know, these SEO strategies are very effective, right?
+ 1:53: And you can sort of like, OK, so like you can sort of bubble the whole thing in this like really sort of perfectly kind of like hermetic qualified.
+ 2:01: , Sort of logical space and in in that within that space, you can say like, OK, well, you know, we're only talking about the relationships between these like mathematical this is kind of like well the tangent, but right, the point here is that we've had to introduce a new type.
+ 2:25: We have introduced a type which is like a utility function, or at least like we don't actually just have to know reason about utility functions, but we can say here like, OK, and this is going to be like this is we're gonna need two explanations, right?
+ 2:36: But we can say like, OK.
+ 2:38: You know,.
+ 2:39: , right it's with respect to like goals or values or something, right?
+ 2:46: And like one thing that we can distinguish this is a basic one of the type, basic one of the type distinctions I'm gonna wanna make is gonna be like, OK,, you know.
+ 2:55: ,, Like,,.
+ 3:00: , we, we were saying that something is sort of like empirically true and saying that something is strategic with respect to a given set of values are very different types, very, very different types, right?
+
+0:00: OK, now, now I want to start like commenting on some like colloquial language.
+ 0:04: I think that there's some more some more types that I wanna like lay out, but like, and I think like within each one thing to say here, by the way is that within each of those there's actually like a bunch of different subtypes and they kind of like splay out into more diversity than I've depicted and I don't have a sort of like.
+ 0:17: Really high resolution model there, but I think I'm fine with saying like, OK, so we can start there and that like, you know, gets us at like a bunch of things that I wanted to say and then we could be like, indeed, at least these are very different.
+ 0:28: These are very, very different.
+ 0:29: OK, so now let's talk about aesthetics and we're gonna talk about right, the word right.
+ 0:35: OK, so the word right, what's up with that?
+ 0:37: So, you know, you might say, so we have this word wrong, as in wrong note, you played a wrong note,.
+ 0:43: , and this is fine.
+ 0:47: So like colloquially, whatever, the same way I said about the word loud, it's like, well, it's fine.
+ 0:54: I, I, no, I use the word loud.
+ 0:55: I think it's actually quite lovely.
+ 0:56: It's really, you know, kind of point like poetic, beautiful to me,.
+ 0:59: , and certainly in the sense, I, I'm not, what I'm not the like the language police here, right?
+ 1:06: Like the point here is not, oh, you shouldn't use the word loud, this you shouldn't use the word loud or no, and, and indeed not, oh, you shouldn't use the word wrong as in wrong note.
+ 1:15: We're also gonna talk about morally wrong, and we'll get there in a second,, hopefully, if I remember,.
+ 1:23: Right, but so like, OK,, you know, wrong note, that's fine.
+ 1:26: And you can say like, OK, in that case, actually, you can say you you have to have like a very sparse, a very, very sparse,,,, you know, set of values here in order to say that something is the wrong note, right?
+ 1:42: So like it has the same,, typological structure, mostly or like a very close typological structure.
+ 1:49: They're both like subtypes or something of like a a super class,.
+ 1:53: , as you know, something like, oh, you know, if you have such and such goals, then you should do this.
+ 2:01: It's to say, well, in musical performance in isolation cannot be said to be wrong.
+ 2:07: You can say, well, if you're like we could constructed as, if your goal was to play this piece of music as written.
+ 2:15: Then indeed you have done so incorrectly, or you have not done so according to spec, right?
+ 2:21: So conformance to a specification, right?
+ 2:24: And that's fine.
+ 2:24: I mean, it's like very useful concept.
+ 2:26: There's obviously a lot more nuance in what we want in musical performance, but at least we could say yes, they did not conform to the spec.
+ 2:32: There was a spec as in a written.
+ 2:34: A written piece and then you did something other than that, right?
+ 2:39: And we have some like, you know, sort of nebulosity as to like exactly what constitutes that as in like, for example, you know, tuning is imprecise,, well, did you play it in a different key?
+ 2:50: Oh, in fact, are you in a different sort of like, not either are you in a different tuning system, but also like people's voices are not tuned precisely anyhow,.
+ 2:58: , are you in a different, you know, concert pitch, and so on, but we have like a range of acceptable senses of right and wrong and like, oh no, that was off by a 4th, that was a wrong note, or even that was off actually by a minor 2 is still that was the wrong note.
+ 3:16: ,,, and indeed, but however, so very obvious, you know, construction here is indeed in something like jazz, as they say, there is no such thing as a wrong note.
+ 3:30: And we were sort of only concerned with.
+ 3:33: ,, the sort of like harmoniousness of the composition altogether, but even harmoniousness is nuanced, right?
+ 3:45: I'm actually gonna write something down.
+
+0:00: Right, so jazz is jazz is a sort of marvelous example here because like,, they just sort of like actually like that discourse does not make use of the notion of wrong in the same way at all.
+ 0:11: And in fact, to my sort of shallow understanding, like they actually don't use the word wrong very much.
+ 0:19: It's more like good, right?
+ 0:20: They're much more likely to say good, beautiful, harmonious, whatever, and and it's that's really beautiful and it's like it's really it's just really right indeed, if you play to spec it you wouldn't say so much that it's bad is that you haven't even It's not jazz yet, right?
+ 0:37: Like if you played a a a chart exactly as written, you have sort of, you've done none of the work of making the art of it, which is indeed of the interpretation, right?
+ 0:48: If you literally just play the notes as written, and even if you actually like, well, I mean, OK, fine, you can play the notes as written and you can play them quite nicely, but you haven't really played jazz, right?
+ 0:59: You played the song that was fine, that was good.
+ 1:01: No, no, no, now let's get to the work of making the jazz of it, right?
+ 1:04: ,, and then we, what we have here is, OK, well, now we have, right, a utility function.
+ 1:12: We have a valuation, a loss function, and evaluation function depending on how we want the sign to be written or which sign we want to use,.
+ 1:19: ,, over.
+ 1:23: , over, you know, interpretations, right?
+ 1:26: And there's like different styles, there's different traditions, and you can get really abstruse, right?
+ 1:32: Like you can get like really out there and if it's like legible within a like communicative system.
+ 1:39: Then indeed, etc.
+ 1:41: like that will be said to be a beautiful.
+ 1:45: Maybe they don't use the word the word beautiful, but whatever, a beautiful interpretation of a piece, and indeed there's no such thing as a wrong note.
+ 1:51: Now you can say now they're still going to sometimes use the word wrong note, like, oh indeed that wasn't what I planned to do, and it didn't really go that well.
+ 1:58: And like, yeah, fine, that's a wrong note.
+ 1:59: OK, sure.
+ 2:00: And they're gonna use the same word and indeed like, you don't start playing jazz, you start playing.
+ 2:06: You know, things as written and you gotta like learn your scales and like they still care a lot about playing what they exactly what they care about playing what they want to play like they're not just fucking around.
+ 2:16: It's like very, very fine, very, very controlled, but nonetheless,.
+ 2:22: The notion of correct doesn't apply there, right?
+ 2:27: Or or at least it's not used in that discourse and and it stops actually making any making sense.
+
+0:00: OK, great.
+ 0:01: So,,, Oh yeah, yeah, yeah, OK, there was, that was the thing I wanted to write down.
+
+0:00: OK, right.
+ 0:00: OK.
+ 0:00: So the, the one that I wrote down, and I did write it down in my file as well, is there's this quote from a Greek philosopher somewhere that I found on Twitter.
+ 0:09: I'm gonna,, one second.
+ 0:37: OK, great.
+ 0:37: So,, right, and, and he's like,.
+ 0:42: You know, oh, these sort of adults, these idiots, they think that they can uncultured or whatever, they think that they can just make music that feels good,, and oh this is great.
+ 0:54: Oh I love where I'm going with this.
+ 0:55: This is, this is why I had these thoughts before, sorry, this is great.
+ 0:58: , it's actually working a lot better than I thought it would.
+ 1:00: So they think that they can just make music that feels good.
+ 1:05: It's rousing to the spirits,, and they don't understand that their music is wrong.
+ 1:10: It's mathematically wrong because music has to have certain mathematical relationships and theirs defiant.
+ 1:16: OK, and so like this strikes us as just, sorry, that's the end of the quote.
+ 1:19: It strikes us as immediately obviously a joke.
+ 1:21: I want to elaborate on a point here.
+ 1:23: I'm gonna labor on this point in particular.
+ 1:25: If we take the history of Western music since the common practice period.
+ 1:30: Or since the sort of outset of the common practice period, and this is like so important, is that it is one revolution after another of breaking the rules, right?
+ 1:40: The our, our, our like our sort of like, well, it's, it's interesting, of course, because, you know, so-called classical music.
+ 1:48: of course, at every stage, like, incredibly modern, right?
+ 1:52: Like every, every, every renowned classical composer is, is known because they weren't just making, they weren't simply following the forms.
+ 2:01: They were like exactly breaking the rules and people said, oh, that's beautiful.
+ 2:04: Oh, that's incredible, right?
+ 2:06: ,, and this, and it's this sort of like sacred part of Western culture, at least for a lot of people,, is this like tradition which is like fundamentally innovative, right?
+ 2:19: It's all sort of like,, raison dre is innovation.
+ 2:24: The, the, the thing that distinguishes it,, the thing, the thing that they valorize most now to the point of sort of degeneracy because like contemporary classical music is often like.
+ 2:35: Kind of opaque to people though that's often true at it I mean that there's a separate point here that like when when things come out people often are offended.
+ 2:43: So like even Bach, which is which is sort of like the, you know, the What is it?
+ 2:50: , I think it's the 4, you like sustain the, the 4 into the 57, or you see the 4 into the 5 and then you call it a 57, right?
+ 3:05: The 4th, the 4th degree and then you call that that that's like the 7th, 7th or the 4th note of your, of your 5, you're extending the 5 triad, right?
+ 3:15: .
+ 3:15: , then even that I think was sort of like people didn't like it and indeed there's like when you read histories of, you know, classical musicians that indeed,, you know, a lot of like what, like there's all these cases where people were like offended and they would like walk out in the middle of performances and so on and so like, OK, well there's something funny going on with the signaling of like, like contemporary, you know, classical it's written today, it's like really avant garde and we hit kind of the extent of avant garde with like, you know.
+ 3:43: , you know, free rhythm and, and, and, and atonality and Whatever.
+ 3:50: this is like I'm not gonna labor this point too much, but the point here is to say,, that like indeed, both, OK, well we find that this Greek philosopher's name I can't remember,, is like, you know, it's ridiculous, right?
+ 4:03: You listen to that you're like, oh what a fucking, oh my God, what a fucking meme, like what an absolute shit lord, right?
+ 4:09: But people actually say things like this.
+ 4:12: They say things to some extent even about music, right?
+ 4:15: You, you, you played this wrong.
+ 4:17: And they'd say it in a way as though it's, that is a unqualified and B as though it's absolute, right?
+ 4:22: They didn't know it's fine to say in the same way that it's fine to say, given some set of goals, these things will satisfy those goals under utility function, you can, you know, here's the local optimum, local or global optimum.
+ 4:37: Right?
+ 4:38: But you can't say this is the optimum absolutely.
+ 4:41: You can't say this is the choice that should be making res be made irrespective of all goals.
+ 4:47: It's just like not, it's it's like no meaningful notion.
+ 4:50: Now you, you might, there might be some things where you say for this large class of goals, they all have an optim here.
+ 4:55: There are some domains that are like this, that's true.
+
+0:00: Right, so this is the choice that should be made irrespective.
+ 0:02: I got cut off the, the file just it stopped recording me.
+ 0:05: This is the choice that should be made irrespective of our goals is a type error, right?
+ 0:10: You can't, you just like can't have, or like, like, or like really what you just say is like this choice is correct.
+ 0:17: I don't know exactly to construct this, right?
+ 0:19: So what we have here also is the thing with the it's not Pythagoras, some fucking stupid Greek is like he's like, oh yeah, I'm not racist against ancient Greek.
+ 0:27: I don't, you know, whatever,.
+ 0:28: , is it he's made a type error there, right?
+ 0:32: OK, fine.
+ 0:32: So,.
+ 0:33: , you find people, you, you find people sometimes in the context of, of music and temporarily, and, and, and often this is like more nuanced and this is like when, you know, if a teacher is frustrated or something, you, you, this is wrong, wrong, wrong, wrong, you can't do that.
+ 0:47: ,, and it's, and it's not offered in a way that's qualified as, you know, if you want to play it as written, then indeed that's wrong.
+ 1:02: Oh, I think there's a point here that I want to elaborate, which is something like, indeed, at some level, right, so in the same way that like jazz is all about, well, you didn't play it as written and you can break the rules in this beautiful way,.
+ 1:16: Or at least it had, that has been the the shtick for some time, for like at least like 70 years or so,, more than that.
+ 1:22: Yeah, that's probably right, that's probably the right place to start.
+ 1:26: Whatever, nonsense,.
+ 1:34: Anyway,.
+
+0:00: Right, so at a different sort of like at a different resolution, and a different time resolution,, also, like Western classical music is in general is about,, OK, well, you know, did you, what not just is it correct, is it according to spec, you can write things according to spec.
+ 0:17: There are like some pretty narrow rules that define common practice period,, compositional rules, but nonetheless, it's rather,,, you know, is it harmonious?
+ 0:31: That's the criteria.
+ 0:32: I is it harmonious?
+ 0:33: So so the goal, I mean, it's not now it's like, right, so if you want to talk about music, like, is that good?
+ 0:38: Again, it's actually just with respect to some goals and it's just, was it pleasing?
+ 0:42: Was it pleasing, satisfying, riveting.
+ 0:47: Pleasant, might be just like, oh, that was just enormously chill.
+ 0:51: That was it put me asleep, right?
+ 0:53: So that can be very negative and it can be very positive.
+ 0:55: Oh, I love this music to fall asleep to.
+ 0:57: It's so wonderful.
+ 0:58: It puts me to sleep so wonderfully.
+ 1:00: Or you can say, oh, I saw this movie, it put me to sleep.
+ 1:03: It's horrible, right?
+ 1:04: So no, it's just like, OK, it's also with respect to like what you wanted out of that at the time, or maybe you didn't even know you wanted it and nonetheless, something about it was satisfying or some something good.
+ 1:15: What we mean here is with respect to some set of goals or values, some utility function, etc.
+ 1:20: you know, was it preferred?
+ 1:23: Was it, you know, did it, did it, you know, far better according to this sort of evaluation function.
+
+0:00: OK, so, indeed, this is a very important point and, well, OK, indeed this is still this is still contentious and so you'll find people and this is where I would sort of like quote the the people that,,, Scott was responding to recently in his post discussing taste,.
+ 0:18: , that you'll find people who are like trying to justify taste as sort of like more deeply real,.
+ 0:29: Sort of like more profoundly like just just definite and like grounded and real than, you know, not pleasing to me and contrary to this sort of like contemporarily accepted styles or something, right?
+ 0:44: And it's just like, no, no, OK, now, now maybe, I don't know, I don't feel utterly confident about this point.
+ 0:49: I'm actually not necessarily going to labor the point about aesthetics and in some point way here, I feel as though maybe my argument doesn't, doesn't sort of hold,.
+ 1:01: I'm gonna follow this point and maybe if it doesn't sort of hold together perfectly, it's like I, I don't know.
+ 1:07: Whatever.
+ 1:08: It's not, it's not it's crystalline ball of.
+ 1:12: Perfect logic.
+
+0:00: OK, and so, so part of the thing here, I, I don't remember exactly how I started this earlier, but it, I was gonna talk about the word wrong, right, yeah, so I started talking about the word wrong and we went on this whole tangent about wrong note and then it's like, oh right, OK, so,.
+ 0:15: Right, we can say wrong as in,, like, like low confident, like, like a low very low probability that I expect, you know, prediction to be borne out, or we can say something like You know, indeed, like a false theorem.
+ 0:34: Right, a false proposition.
+ 0:36: OK, right,,, and like the point here is not to be the language police, right?
+ 0:42: But it's like, oh, when you say, and I'm fine with saying wrong note, and there is a sort of narrow technical definition of wrong note and I'm fine also, but, and like indeed I'm also fine with saying that fucking that song fucking sucked, that fucking sucked, dude, you know, that like sure nobody likes the no no.
+ 1:02: Yeah,, right.
+ 1:03: , but no, so the thing that we want to say here is.
+ 1:07: , You know,,.
+ 1:10: , what do I want to say?
+ 1:26: , Right, it's it it it's like it's not.
+ 1:32: Is it, is it so indeed it like, like, is it is that people will say things with a tone.
+ 1:39: I think there's a, there's a nuance here which I might may or may not forget to capture.
+ 1:42: , I don't know, I'm not gonna be, I'm gonna finish this point.
+ 1:45: So people will say things with a tone in any language as though they mean logically necessary or empirically true for various sense of empirically true, and what they actually mean is either unstrategic.
+ 2:03: These are also actually, yeah, that's two types that I want to be able to distinguish, right?
+ 2:05: So unstrategic and dispreferred, right?
+ 2:10: So those are unstrategic and dispreferred are like with respect to like the same sort of domain but at like two levels of abstraction or like with two different kinds of qualification.
+ 2:20: So when I say dispreferred that sort of like has already assumed.
+ 2:24: ,,, the utility function, we say like under a utility function this under under this utility function, indeed this is dispreferred, you're like, you know, that that is dispreferred I should say, and then separately we would want to be able to distinguish,, like, well, given my model of the domain.
+ 2:49: And like for that utility function, such an action is,, unstrategic.
+ 3:00: Right?
+ 3:01: So, again, we want probably unstrategic and dispreferred, and both of those, nonetheless are not, cannot be said in absolute, in the absolute.
+ 3:11: They always mean.
+ 3:12: ,, You know, with respect to a utility function or or something or or something equivalent or something.
+
+0:00: One thing that's occurring to me as I'm as I'm here is something like, actually I might want to, I don't necessarily want to call it like a typology of correctness, but I wanna say like various distinctions with respect to correctness or something like that.
+
+0:00: OK, right.
+ 0:00: So the last thing that I want to ask is something like, are there any questions left about like more types that I want or is that sort of like I've gotten far enough?
+ 0:26: Yeah, I think that there's a like NNTD like thinking that thinking that contradicts other things, thinking that goes against other thinking, I don't know what language he uses.
+ 0:34: , that's like, you know, sometimes people will say, oh, so this is where we go to the third level, right?
+ 0:41: So we're like, first, you know, first level is logic, second level is empirical, 3rd level is strategic.
+ 0:49: Fourth level is like values.
+ 0:52: , And then 5th level, and maybe I don't know, and this is where it gets confusing, but it's something like, you know,.
+ 1:00: , You know, like,,,.
+ 1:24: Well, lots of things, lots of feelings and thoughts,.
+ 1:28: You know, like, like, oh, is this the sort of correct,, correct values, right?
+ 1:34: So, so, so, and there are, there are contexts in which there are versions of this that make can make sense, right?
+ 1:38: But nonetheless, often what you actually observe is someone will say, oh, that's wrong by universal law, by Dharma.
+ 1:47: The Dharma contradicts, it goes against the Dharma.
+ 1:50: It goes against the word of God.
+ 1:52: Or they, right?
+ 1:53: , and I think that actually sort of like these, these are the, the reason why they're needing to say it with such force is that this is like a sort of like a social, there's like a social, like a speech act, right?
+ 2:05: That is trying to kind of like It's it's the opposite of untying the Gordian knot, right?
+ 2:11: It's, it's rather like they're trying to tie the Gordian knot.
+ 2:14: They're trying to tie a knot in what is an unknot.
+ 2:20: OK, that, that's not gonna make an end, but it's great.
+ 2:22: I love that.
+ 2:22: I love fucking love that.
+ 2:24: They're trying to tie and unnot.
+ 2:29: Yeah No, I mean, I might include that tie it or not.
+ 2:37: I sucking my head so sick.
+ 2:38: I'm so basic.
+ 2:39: , Right, and then they just say, oh well, you know, values that are beyond yours that you can't argue with or something.
+ 2:48: And it has this sort of like affective psychological consequence of like, you know, people people will submit to them unfortunately.
+ 2:55: , and I'll say just like, no, I think this is wrong, right?
+ 2:58: You cannot make claims sort of like purely in the abstract about value and principle.
+ 3:04: And so like this is where we're gonna get like.
+ 3:06: You know, minds that that there's like an Eliezer post here that's like mines.
+ 3:12: So I wanna say about tying, like tying an unknot.
+ 3:14: I want to link to the Wikipedia page for unknot,, and so like, yeah, for like a Y is her part, I would want to say something like, you know.
+ 3:23: Right, right, right, yeah, it's like, you know, there's the zig minds that zig and minds that Zag.
+ 3:28: I think it's like it's not arguments from nowhere, but it's like.
+ 3:30: , our perspective from nowhere, like, like universally compelling arguments or something universal, yeah, universally compelling arguments, I think is the title of the post.
+ 3:40: And it's just like, yeah, you can't make an argument.
+ 3:43: You can't, you can't like assume a value,.
+ 3:48: Like holds in principle.
+ 3:49: It's like that's like that that is a type error, right?
+ 3:52: It is not, it is, it's always the case that you could just like define a utility function with a negative sign in front of it.
+ 4:01: You're a negative sign in front of it.
+ 4:03: Now, now there is, and this is where we're going to get in trouble.
+ 4:06: I'm gonna talk about this later, is like you can say something like, no, I believe you are confused about your own values, right?
+ 4:13: ,, I think I didn't make the earlier point quite so well, but I'm gonna anyway, but it's, that's sort of fine.
+ 4:23: I might have more to say about it later.
+
+0:00: So right, so what we're gonna get to here is that like the sense in which the only, what I think is probably the only recoverable sense.
+ 0:07: Well, there are two senses, right?
+ 0:08: So there are two senses of something like this value is more correct than other values.
+ 0:12: It's not just to say, you should have this value, but it would, it would basically be to say on sufficient reflection.
+ 0:22: On something like that, on sufficient reflection, I believe that you would that it is a property of your mind that you would determine that this value trumps the other, or you would determine that that value was proximal,, and like.
+ 0:39: Instrumental and that you like no longer endorse it,-huh and so on.
+ 0:44: Something something like that or so that's sorry that's maybe like I I think I've lost track of the sentence, but like one of the points to say here is something like, Right, it's like,.
+ 1:01: ,, Yeah, sorry.
+ 1:16: , Let's see what I don't, I forgotten, I've lost track of my train of thought here.
+
+0:00: Yeah, right, OK, so like one of the things was something like, if you do enough reflection, I believe that the thing might unravel itself.
+ 0:06: And the other thing is something like, I believe that, and these are maybe end up actually being the same thing, it's something like, I believe that your apprehension of your values is incorrect, as a matter of fact with respect to the values.
+ 0:20: Like maybe actually that maybe gets in trouble.
+ 0:22: I think a matter of fact is actually too strong, but something like that like your your apprehension of your values is yes shallow.
+ 0:29: , something like that.
+ 0:31: , it is yet, is yet shallow, is yet occluded,.
+ 0:42: Is yet sort of contorted with respect to a like, you know, energetic, not, etc.
+ 0:49: and that's actually like one of the sort of like what that's one of like major claims about spirituality that I think is really important is like, oh yeah, like actually fucking introspection though.
+ 0:59: Holy shit, like holy fucking shit though,.
+ 1:02: , yeah, OK.
+
+
+
+
+
+
+
+
+***
 #### old notes
 [
 probably link to scott's aesthetics post here
