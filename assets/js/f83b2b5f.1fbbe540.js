@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkspiritual_epistemics=self.webpackChunkspiritual_epistemics||[]).push([[259],{9063:s=>{s.exports=JSON.parse('{"authors":[{"name":"Dh\u0101bi Ibn M\u016bsa","key":"dhabi","page":null,"count":0}]}')}}]);
