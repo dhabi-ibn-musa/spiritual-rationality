@@ -98,7 +98,7 @@ const config = {
         style: 'dark',
         links: [
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Dhabi Ibn Musa.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Dhābi Ibn Mūsa.`,
       },
       prism: {
         theme: prismThemes.github,
