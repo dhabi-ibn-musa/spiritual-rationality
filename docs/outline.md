@@ -29,3 +29,4 @@ sidebar_position: 1.5
 	- [ ] what is practice for?
 - [ ] trying to actually do some empiricism
 	- [ ] "95% confidence interval, ~98% of those practitioners who attend at least one meditation retreat make &le; 1 sigma gains in neuroticism over 20 years " (2024-08-02 current bs guess)
+- [ ] harms associated with normative claims, "the burdens of meaning"
