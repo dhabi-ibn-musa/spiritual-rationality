@@ -1,6 +1,6 @@
 ---
 title: Spiritual Rationality and Rational Spirituality
-sidebar_position: 2.2
+sidebar_position: 4
 ---
 [I think it's not clear if the correctness post needs to come first here]
 --[I think it does, since I want to talk about transformation etc]
@@ -122,7 +122,7 @@ voice notes:
 0:00: OK, and then rational spirituality is like, OK, so there is this domain which is spirituality, which I'll probably define afterwards unfortunately.
  0:11: Again, there's no way to write this, this thing doesn't go in a linear order.
  0:13: There's like a complicated network and like it will be in an order in the like apparent, you know, whatever, but like that's fine.
- 0:20: Actually, also that's a note that I wanna, what I want to leave here is like probably introduction should say, by the way, the thing is, is in an order because it has to be presented in an order, but it's actually just like the things all link back and forth and don't worry about it.
+- [x] 0:20: Actually, also that's a note that I wanna, what I want to leave here is like probably introduction should say, by the way, the thing is, is in an order because it has to be presented in an order, but it's actually just like the things all link back and forth and don't worry about it.
  0:32: , Yeah, I do.
  0:36: I, I will want to say that.
 

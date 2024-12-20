@@ -1,5 +1,5 @@
 ---
-title: Attempting to deconstruct "real"
+title: Attempting to Deconstruct "Real"
 ---
 
 *This page is taken verbatim from a [blog post](https://www.lesswrong.com/posts/erMexbvmFGqGp5nyS/attempting-to-deconstruct-real) I wrote a couple years ago, but it's germane to the content of this book, and is worth including by itself*

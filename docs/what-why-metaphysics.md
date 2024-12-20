@@ -2,6 +2,7 @@
 status: draft
 started: 2024-07-31
 title: What, and Why, Metaphysics?
+sidebar_position: 5
 ---
 
 

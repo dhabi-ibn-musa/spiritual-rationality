@@ -34,3 +34,5 @@ sidebar_position: 1.5
   - [ ] including "attempting to deconstruct real", "reification", "inappropriate dereification", "what should be reified", and *maybe* "view
     - [ ] I think potentially a bunch of these can get folded into other posts but it's going to be necessary to have the content in the body of the book and not be like "yeah here's a blog post you can read"
   - [ ] a bunch of these are basically just part of a section on metaphysics or something. "phenomenal metaphysics"
+- [ ] american dharma, "whose buddha", "the buddha", historiography, textual criticism, etc.
+  - [ ] but also western buddhism in particular

@@ -1,0 +1,30 @@
+---
+title: How to read this book / What's up with this website?
+sidebar_position: 1.5
+---
+import { TechnicalTabs, technical, vernacular, TabItem } from '@site/src/components/TechnicalTabs';
+
+
+While this site presents the pages in a linear order, it wasn't really possible to structure the material fully linearly, so some pages [[many pages?]] link forward or backward. Still, it's meant to be read in the order presented, as I make distinctions that build on one another.
+
+#### Jargon / technical sections
+Some explanations begged to be explained with reference to a specific technical model, or at least riffing off of one, but I also wanted this material to remain mostly accessible. In addition, unfortunately
+"technical" is often with reference to  very different disciplines and traditions, so I expect most people not to find these explanations that helpful. Therefore, these sections are presented with a choice of a more accessible, and a more technical or just abstruse explanation.
+
+<TechnicalTabs>
+    <TabItem {...vernacular()}>
+    You can click on the other tab to view a more in-depth (but jargon-laden) explanation. Your choice will be saved for sections like this within this site.
+    </TabItem>
+    <TabItem {...technical()}>
+    Choices are persisted in localStorage; in addition they are persisted in the URL's query string, so that you can link to a page with a specific jargon level.
+    </TabItem>
+</TechnicalTabs>
+
+#### Expandable sections
+
+There are also expandable sections like this one, for digressions that aren't vital to the main text.
+<details>
+    <summary>Click here for some tasty details...</summary>
+
+    (Or not so much, in this case.)
+</details>

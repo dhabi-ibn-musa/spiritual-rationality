@@ -11,13 +11,16 @@ export default function HomePageNotes() {
     <p>
       <i>groan...</i>
     </p>
-    <p>
-      I'm writing this book in an attempt to lay out what I see as some systematic mistakes being made at the intersection of <i>"science"</i> and <i>"spirituality,"</i> and to describe what landmarks I can see in charting a path forward.
-    </p>
 
+    <p>
+      This book is written in an attempt to lay out what I see as some systematic mistakes being made at the intersection of <i>"science"</i> and <i>"spirituality,"</i> and to describe what landmarks I can see in charting a path forward.
+    </p>
+    
     <p>
       Move on to the <Link to="/book/introduction">Introduction</Link> to read more.
     </p>
+    
+    <img src="./img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm.jpeg" />
     </div>
   );
 }

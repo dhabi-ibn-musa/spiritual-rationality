@@ -25,7 +25,7 @@ export default function Home() {
     <Layout
       // title={`${siteConfig.title}`}
       title={`Home`}
-      description="How to figure out what's even good, tho">
+      description="What's even good, tho?">
       {/* <HomepageHeader /> */}
       <main>
         <HomePageNotes />

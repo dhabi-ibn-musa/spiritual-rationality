@@ -1,5 +1,6 @@
 ---
 title: "'Reification'"
+sidebar_position: 6
 ---
 
 *This page is taken verbatim from a [blog post](https://www.lesswrong.com/posts/nryLTAFDdYiHARaqZ/reification) I wrote a couple years ago, which is important enough that I wanted to include it in its entirety.*
