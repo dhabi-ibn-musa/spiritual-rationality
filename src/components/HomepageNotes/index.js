@@ -10,8 +10,8 @@ export default function HomePageNotes() {
       <h1>Spiritual Rationality</h1>
       <img src="./img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm_cropped.jpeg"
      style={{
-       width: "400px",
-       height: "400px"
+       width: "350px",
+       height: "350px"
      }}  />
     <p>
       <i>groan...</i>
