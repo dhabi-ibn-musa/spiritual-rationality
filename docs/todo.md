@@ -14,5 +14,6 @@ draft: true
 - [ ] turn image from gemini whatever into logo + favicon
   - ![image](../static/img/Gemini_Generated_Image_7cfd3u7cfd3u7cfd.jpeg)
   - ![image](../static/img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm.jpeg)
+  - [ ] this conversation has some good images towards the end: https://gemini.google.com/app/e733c7e5f0515c9e
 - [ ] it's not clear if I should link back to LW/substack, and it's not clear if I'll be publishing the thing as dhabi ibn musa or my actual name
 - [ ] whech whether I actually used the vernacular/technical tab things, and if I didn't then remove the thing from the introduction about it.

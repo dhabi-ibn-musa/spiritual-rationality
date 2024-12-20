@@ -12,7 +12,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Spiritual Rationality ',
   // tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
+  favicon: 'img/interrobang.ico',
 
   // Set the production url of your site here
   // Set the /<baseUrl>/ pathname under which your site is served
@@ -82,7 +83,7 @@ const config = {
         title: 'Spiritual Rationality',
         logo: {
           alt: 'Spiritual Rationality',
-          src: 'img/logo.svg',
+          src: 'img/interrobang.svg',
         },
         items: [
           {
@@ -95,7 +96,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Dhābi Ibn Mūsa.`,

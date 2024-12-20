@@ -8,7 +8,7 @@ export default function HomePageNotes() {
   return (
     <div className={styles["homepage-main"]}>
       <h1>Spiritual Rationality</h1>
-      <img src="./img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm_cropped.jpeg"
+      <img src="./img/lotus_compass.jpg"
      style={{
        width: "350px",
        height: "350px"
@@ -18,13 +18,13 @@ export default function HomePageNotes() {
     </p>
 
     <p>
-      This book is written in an attempt to lay out what I see as some systematic mistakes being made at the intersection of <i>"science"</i> and <i>"spirituality,"</i> and to describe what landmarks I can see in charting a path forward.
+      This book is written in attempt to lay out what I see as systematic mistakes being made at the intersection of <i>"science"</i> and <i>"spirituality,"</i> and to describe what landmarks I can see in charting a path forward.
     </p>
-    
+
     <p>
       Move on to the <Link to="/book/introduction">Introduction</Link> to read more.
     </p>
-    
+
     </div>
   );
 }
