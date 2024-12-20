@@ -8,6 +8,7 @@ export default function HomePageNotes() {
   return (
     <div className={styles["homepage-main"]}>
       <h1>Spiritual Rationality</h1>
+    <img src="./img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm.jpeg" />
     <p>
       <i>groan...</i>
     </p>
@@ -20,7 +21,6 @@ export default function HomePageNotes() {
       Move on to the <Link to="/book/introduction">Introduction</Link> to read more.
     </p>
     
-    <img src="./img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm.jpeg" />
     </div>
   );
 }
