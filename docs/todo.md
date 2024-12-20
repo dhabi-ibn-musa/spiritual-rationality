@@ -11,3 +11,6 @@ draft: true
 - [ ] 2024-12-17 make sure all the links work, including all the fragments
   - [ ] ostensibly the build system should catch thsi but it's currently not working
 - [ ] 2024-12-17 how consistent am I in reference to concepts that I define, eg especially rationality
+- [ ] turn image from gemini whatever into logo + favicon
+  - ![image](../static/img/Gemini_Generated_Image_7cfd3u7cfd3u7cfd.jpeg)
+  - ![image](../static/img/Gemini_Generated_Image_r8vmdgr8vmdgr8vm.jpeg)
