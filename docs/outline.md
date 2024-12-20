@@ -30,3 +30,7 @@ sidebar_position: 1.5
 - [ ] trying to actually do some empiricism
 	- [ ] "95% confidence interval, ~98% of those practitioners who attend at least one meditation retreat make &le; 1 sigma gains in neuroticism over 20 years " (2024-08-02 current bs guess)
 - [ ] harms associated with normative claims, "the burdens of meaning"
+- [ ] I think I want to include a bunch of my blog posts just in the book unaltered
+  - [ ] including "attempting to deconstruct real", "reification", "inappropriate dereification", "what should be reified", and *maybe* "view
+    - [ ] I think potentially a bunch of these can get folded into other posts but it's going to be necessary to have the content in the body of the book and not be like "yeah here's a blog post you can read"
+  - [ ] a bunch of these are basically just part of a section on metaphysics or something. "phenomenal metaphysics"
