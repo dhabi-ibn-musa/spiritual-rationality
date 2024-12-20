@@ -5,6 +5,8 @@ sidebar_position: 2.2
 [I think it's not clear if the correctness post needs to come first here]
 --[I think it does, since I want to talk about transformation etc]
 
+- [ ] 2024-12-19 sending messages in slack dm to myself about this
+
 There are two very different concepts which I want to distinguish here clearly, which is why they're on the same page.
 
 ## Spiritual Rationality: the third leg of the stool
