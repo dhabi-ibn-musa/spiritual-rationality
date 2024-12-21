@@ -9,8 +9,13 @@ sidebar_position: 1.5
 - [x] sketch of a typology of correctness
 	- [x] More like "a sketch of some types of correctness" rather than typology
 - [ ] why metaphysics?
-		- [ ] everyone is concerned with metaphysics
+	- [ ] everyone is concerned with metaphysics
+	- [ ] "phenomenological metaphysics"
+		- [ ] something something, "being and seeming of the world" -- existential seeming, something here about the no eyebrows dude's tweet about IPF, god, love, flourishing, society, communal wealth and happiness, etc etc.
 - [ ] against naive rationalist metaphysics
+	- [ ] physicalism, reductionism, and computational theory of consciousness are taken as a fait accompli when this is in fact yet to be demonstrated. yes yes, you can use your metaphysics to generate assumptions, but *if it's taken as undeniable* then you're making mistakes. in any case your metaphysics distorts the whole landscape of attention and inference, if you're looking for models that smell like physics you'll generate them (see econ) but this is often quite inappropriate b/c we simply don't have models at that resolution and confidence [ I'm not sure I really want to take a jab at econ here but still -- but somethign something, folk tech-y theories of cognitive science etc *are* what I'm aiming at here to a decent extent]
+		- [ ] probably can reference discussion with jeffrey here re navier-stokes, reductionism is taken as an axiom and is not quite justified
+			- [ ] and this is just in principle but the point is, discussions of the mind often begin with an assumption that we have an adequate reductionist model when in fact we seldom do, we're really shooting in the dark to a large extent
 - [ ] ontological mistakes wrt phenomenology
 	- [ ] the reification post goes in here
 	- [ ] re like, mistaking or equivocating between physical correlates and qualia
@@ -18,7 +23,10 @@ sidebar_position: 1.5
 		- [ ] (note hippies make this same error often)
 			- [ ] there's some broader point re like, I'm making critiques addressed to rats, or with respect to a much broader discourse, but it's not as though hippies are "winning" here (I think nny is relatively "winning" tho lol)
 - [ ] the basic claims of wayfinding
+- [ ] people are as dumb as they are: people are making inferences based on little information, they overupdate, they can't multiply, and then they say "this is correct" but they simply haven't done the work to find out
+	- [ ] now, maybe this is fine in that they're just like, doing something; you can just cook dinnner, who cares if you "made the pasta wrong" -- if you're enjoying it that's gr8
 - [ ] metaphysical harms
+- [ ] I probably want to just repost the tech debt post as part of the book lol
 - [ ] "coherence" as a concept, can probably link to kaj
 - [ ] "structure preserving on some subspace"
 	- [ ] we can say, certainly, that there's modifications which are not desirable, which we would consider an abomination, and indeed if we said "take this substrate and modify it such that the consciousness running on it is utterly different" that this is basically equivalent to death--I think most ppl would have this intuition
@@ -40,3 +48,5 @@ sidebar_position: 1.5
   - [ ] but also western buddhism in particular
 - [ ] a catalog of empirical, phenomenological, and metaphysical claims made by various traditions
   - [ ] my sense, in evaluating these
+	- [ ] I may want to be like "here's some of the soteriologies people use, my interpretation phemoenologically"
+		- [ ] along with this is like, well, I want some snide remark on open awareness, but part of this is I want to build up to like, "so there's a lot of different claimed outcomes, and they're usually framed as 'this is the best, this is how things thould be' but that's insane or at least we need to find a synthesis among these models"
